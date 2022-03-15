@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /*
  * main - entry point
  * print with out using printf and puts
