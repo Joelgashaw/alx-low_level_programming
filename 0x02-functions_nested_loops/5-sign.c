@@ -2,8 +2,8 @@
 
 /**
  * print_sign - return 0 letter not lowercase, 1 letter lowercse
- * @n: the int to print_sign
- * Retrun: Always 0.
+ * @n: The input number to check
+ * Retrun: int.
  */
 int print_sign(int n)
 {
