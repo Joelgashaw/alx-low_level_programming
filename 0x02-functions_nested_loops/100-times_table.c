@@ -4,7 +4,7 @@
  * Return: nothing.
  */
 
- void print_times_table(int n)
+ void print_time_table(int n)
  {
  int row, col;
  int mult = 0;
@@ -16,7 +16,7 @@
  for (col = 0; col <= n; col++)
  {
  mult = (row * col);
- if (mul < 10)
+ if (mult < 10)
  {
  if (col != 0)
  {
