@@ -1,28 +1,14 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * print_alphabet - print alphabet lowercase
+ * print_alphabet - prints alphabet in lowercase
  *
- * Return: Always 0.
  */
-
-void ft_putchar(char c) { write(STDOUT_FILENO, &c, 1); }
-
-void ft_print_alphabet(void) 
+void print_alphabet(void)
 {
-char letter;
+char c;
 
-letter = 'a';
-while (letter <= 'z')
-{
-ft_putchar(letter);
-letter++;
-}
-}
-
-int main(void) 
-{
-ft_print_alphabet();
-return 0; 
+for (c = 'a'; c <= 'z'; c++)
+	-putchar('\n');
+-putchar('\n');
 }
 
