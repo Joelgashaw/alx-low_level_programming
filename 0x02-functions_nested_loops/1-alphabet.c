@@ -14,6 +14,7 @@ char letter;
 
 letter = 'a';
 while (letter <= 'z')
+{
 ft_putchar(letter);
 letter++;
 }
