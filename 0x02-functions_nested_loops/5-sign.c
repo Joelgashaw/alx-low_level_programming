@@ -6,7 +6,6 @@
  * @n: the int to print
  * Retrun: Always 0.
  */
-
 int print_sign(int n)
 {
 if (n > 0)
