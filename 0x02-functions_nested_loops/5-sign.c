@@ -2,7 +2,7 @@
 
 /**
  * print_sign - return 0 letter not lowercase, 1 letter lowercse
- * @n: the int to print
+ * @n: the int to print_sign
  * Retrun: Always 0.
  */
 int print_sign(int n)
@@ -24,5 +24,5 @@ else
 _putchar ('-');
 return (-1);
 }
-return (0);
+
 }
