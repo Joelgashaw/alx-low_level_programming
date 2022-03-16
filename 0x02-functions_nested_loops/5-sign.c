@@ -2,10 +2,11 @@
 
 /**
  * print_sign - return 0 letter not lowercase, 1 letter lowercas
- * print_sign - return 0 if letter not lowercase, 1 if letter lowercase
+ * 
  * @n: the int to print
  * Retrun: Always 0.
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
