@@ -12,7 +12,7 @@ int row, col, aux;
 
 if (size > 0)
 {
-for (row = o; row < size; row++)
+for (row = 0; row < size; row++)
 {
 for (col = 0; col < size; col++)
 {
