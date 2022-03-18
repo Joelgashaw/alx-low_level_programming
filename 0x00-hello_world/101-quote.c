@@ -2,7 +2,7 @@
 #include <unistd.h>
 /*
  * main - entry point
- *
+ * print text without printf and puts
  * Return: Always 0 (success)
  */
 
