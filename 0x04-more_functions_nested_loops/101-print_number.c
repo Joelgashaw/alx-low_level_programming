@@ -32,7 +32,7 @@ void print_number(int n)
 		for (i = aux; i >= 1; i = i / 10)
 			_putchar((num2 / i) % 10 + '0');
 	}
-	else
-		_putchar(num + 0);
+else
+_putchar(num + '0');
 }
 
