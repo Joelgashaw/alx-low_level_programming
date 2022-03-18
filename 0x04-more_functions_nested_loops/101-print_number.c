@@ -18,7 +18,7 @@ void print_number(int n)
 		_putchar('-');
 	}
 	num = n;
-	num3 = num;
+	num2 = num;
 	if (num > 9)
 	{
 		while (num >= 10)
@@ -29,7 +29,7 @@ void print_number(int n)
 		_putchar((num2 / aux) + '0');
 		aux = aux / 10;
 
-		for (i = aux; i >= 1; i / 10)
+		for (i = aux; i >= 1; i = i / 10)
 			_putchar((num2 / i) % 10 + '0');
 	}
 	else
