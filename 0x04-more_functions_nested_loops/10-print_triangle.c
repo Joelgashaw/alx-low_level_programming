@@ -21,7 +21,7 @@ if (col < aux)
 _putchar(' ');
 else
 _putchar(35);
-	}
+}
 _putchar('\n');
 }
 }
