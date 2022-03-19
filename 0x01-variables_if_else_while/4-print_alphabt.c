@@ -21,10 +21,6 @@ int main(void)
 			lw += 1;
 		}
 	}
-	putchar(lw);
-	lw += 1;
-}
-}
 putchar('\n');
 return (0);
 }
