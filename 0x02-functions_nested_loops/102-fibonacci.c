@@ -16,7 +16,7 @@ int main(void)
 	{
 		fib = j + i;
 		if (n != 49)
-			printf("%ld, ", fib);
+                      printf("%ld, ", fib);
 		else 
 			printf("%ld\n", fib);
 		i = j;
