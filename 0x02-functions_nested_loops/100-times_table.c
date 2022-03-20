@@ -31,7 +31,15 @@ void print_times_table(int n)
 			else if (mult < 100)
 			{
 				_putchar(' ');
+				_putchar(' ');
+				_putchar((mult / 10) + '0');
+				_putchar((mult % 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
 				_putchar((mult / 100) + '0');
+				_putchar(((mult / 100) / 10) + '0');
 				_putchar((mult % 10) + '0');
 			}
 			if (col != n);
