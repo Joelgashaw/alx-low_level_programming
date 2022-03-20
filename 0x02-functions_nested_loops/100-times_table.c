@@ -42,7 +42,7 @@ void print_times_table(int n)
 				_putchar(((mult / 100) / 10) + '0');
 				_putchar((mult % 10) + '0');
 			}
-			if (col != n);
+			if (col != n)
 			_putchar(',');
 		}
 		_putchar('\n');
