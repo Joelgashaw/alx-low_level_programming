@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - function that prints the n times table, starting with 0.
- * @n: input of tsble n
+ * @n: input of table n
  * Return: nothing.
  */
 
@@ -39,7 +39,7 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 				_putchar((mult / 100) + '0');
-				_putchar(((mult / 100) / 10) + '0');
+				_putchar(((mult % 100) / 10) + '0');
 				_putchar((mult % 10) + '0');
 			}
 			if (col != n)
