@@ -38,5 +38,5 @@ int main(void)
 		n1 += 1;
 	}
 	putchar('\n');
-i	return (0);
+	return (0);
 }
