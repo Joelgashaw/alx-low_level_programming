@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n1 = 48;
-	int n2, n3:
+	int n2, n3;
 		int com = 44;
 
 	while (n1 <= 57)
@@ -20,7 +20,7 @@ int main(void)
 		n2 = n1 +1;
 		while (n2 <= 57)
 		{
-			n3 = n2 +1
+			n3 = n2 + 1;
 				while (n3 <= 57)
 				{
 					putchar(n1);
@@ -38,5 +38,5 @@ int main(void)
 		n1 += 1;
 	}
 	putchar('\n');
-	return (0);
+i	return (0);
 }
