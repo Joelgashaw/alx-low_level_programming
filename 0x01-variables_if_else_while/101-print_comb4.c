@@ -13,7 +13,7 @@ int main(void)
 {
 	int n1 = 48;
 	int n2, n3;
-		int com = 44;
+	int com = 44;
 
 	while (n1 <= 57)
 	{
@@ -21,12 +21,12 @@ int main(void)
 		while (n2 <= 57)
 		{
 			n3 = n2 + 1;
-				while (n3 <= 57)
-				{
+			while (n3 <= 57)
+ 			    {
 					putchar(n1);
 					putchar(n2);
 					putchar(n3);
-					if (n2 != 55 || n2 != 56 || n3 != 57)
+					if (n1 != 55 || n2 != 56 || n3 != 57)
 					{
 						putchar(com);
 						putchar(32);
