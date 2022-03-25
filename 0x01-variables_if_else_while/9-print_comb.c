@@ -8,6 +8,7 @@
  * You can only use the putchar function
  * Retur: 0
  */
+
 int main(void)
 {
 int n = 48;
