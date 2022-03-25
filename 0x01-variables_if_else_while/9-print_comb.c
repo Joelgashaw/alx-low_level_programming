@@ -6,7 +6,7 @@
  * Numbers must be separeted by ,followed by a space
  * Numbes should be printed in ascending order
  * You can only use the putchar function
- * Retur: 0
+ * Return: 0
  */
 
 int main(void)
